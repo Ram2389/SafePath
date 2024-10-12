@@ -54,7 +54,7 @@ SafePath is an open-source mobile application designed to provide real-time aler
 - **Database**: PostgreSQL or MongoDB for storing reports and user data.
 - **REST API**: API for managing reports, safe routes, NGO data, and push notifications.
 - **Real-time notifications**: Integration with Firebase Cloud Messaging (FCM) for push notifications on Android/iOS.
-- **Offline support**: Automatic data sync when online, local caching of maps and routes.
+- **Offline support**: Automatic data sync when online, local caching of maps and routes and let the app download offline an area of interest.
 
 ### 4. Security
 - **Data encryption**: Encrypted communications (SSL/TLS) and server-side encryption of sensitive data.
