@@ -5,6 +5,10 @@
 #include "navigation.h"
 #include "notifications.h"
 
+
+//to add more info on the logics
+
+
 void init_app() {
     printf("Initializing SafePath application...\n");
     // Initialization code for GPS, maps, notifications, etc.
