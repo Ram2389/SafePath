@@ -44,16 +44,16 @@ SafePath is an open-source mobile application designed to provide real-time aler
 - **iOS**: Min. version 13.0.
 - **Web app**: For NGO and administrator data management portal.
 
-### 2. Front-end Technologies
-- **Mobile framework**: React Native or Flutter, to enable cross-platform development.
-- **Interactive map**: Use of Google Maps API or OpenStreetMap, with the ability to add custom layers for hazard reports.
-- **UI/UX**: Simple and intuitive design, optimized for emergency use (large buttons, clear interface).
+### 2. Frontend Technologies
+- **Graphical user interface (GUI)**: Built using **GTK** or **Ncurses** for a terminal-based UI.
+- **Mapping system**: Custom implementation for map rendering using libraries like **Cairo** (for 2D rendering) or other simple graphical libraries compatible with C.
+- **Minimalist UI**: Optimized for usability in emergencies with a simple and clear design, using large buttons and minimal input.
 
 ### 3. Backend and Server
-- **Server**: Use Node.js or Django for the backend.
-- **Database**: PostgreSQL or MongoDB for storing reports and user data.
-- **REST API**: API for managing reports, safe routes, NGO data, and push notifications.
-- **Real-time notifications**: Integration with Firebase Cloud Messaging (FCM) for push notifications on Android/iOS.
+- **Backend in C**: Server for managing hazard data and user reports.
+- **Database integration**: Use of **SQLite** (lightweight, embedded database) or a custom binary format for low-resource environments.
+- **Networking**: Custom server built using **libmicrohttpd** or native sockets for handling incoming reports and distributing updates to clients.
+- **Push notifications**: Implemented via a custom protocol for real-time notifications, or via integrations with mobile services for Android/iOS notifications.
 - **Offline support**: Automatic data sync when online, local caching of maps and routes and let the app download offline an area of interest.
 
 ### 4. Security
