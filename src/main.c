@@ -40,7 +40,7 @@ static enum MHD_Result handle_request(void *cls, struct MHD_Connection *connecti
     }
     
     if (strcmp(url, "/app.js") == 0) {
-        return serve_file("src/app.js", connection); // Assicurati di utilizzare il percorso corretto di app.js
+        return serve_file("public/app.js", connection); // Assicurati di utilizzare il percorso corretto di app.js
     }
 
     const char *page = "<html><body><h1>La tua mappa</h1>"
